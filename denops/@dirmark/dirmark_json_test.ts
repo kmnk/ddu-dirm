@@ -1,6 +1,6 @@
 import {
-  assertEquals,
   assertArrayContains,
+  assertEquals,
 } from "https://deno.land/std@0.65.0/testing/asserts.ts";
 
 // Simple name and function, compact form, but not configurable

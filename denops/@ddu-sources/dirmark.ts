@@ -1,17 +1,15 @@
 import {
-  BaseSource,
-  Item,
-  SourceOptions,
-  Denops,
-  fn,
   ActionData,
+  BaseSource,
+  Denops,
   ensureArray,
+  fn,
   isString,
+  Item,
   relative,
-} from "../deps.ts"
-import {
-  load,
-} from "../@dirmark/dirmark_json.ts"
+  SourceOptions,
+} from "../deps.ts";
+import { load } from "../@dirmark/dirmark_json.ts";
 
 type Params = {};
 

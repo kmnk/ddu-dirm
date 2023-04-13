@@ -3,8 +3,7 @@ export type DirmarkJson = {
   group: DirmarkGroup;
 };
 
-export type DirmarkGroup = {
-};
+export type DirmarkGroup = {};
 
 export async function parse(jsonPath: string): Promise<DirmarkJson> {
   const jsonString = await Deno.readTextFile(
