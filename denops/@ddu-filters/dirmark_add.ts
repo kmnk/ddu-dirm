@@ -18,6 +18,7 @@ export class Filter extends BaseFilter<Params> {
       item.kind = "ddu-dirmark_add";
       if (item.display) {
         item.matcherKey = item.display;
+        await console.log(item);
       }
     }
     return Promise.resolve(args.items);
