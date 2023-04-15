@@ -19,7 +19,7 @@ export class Source extends BaseSource<Params> {
       sourceParams: Params;
     },
   ): ReadableStream<Item<ActionData>[]> {
-    const { _, _, _ } = args;
+    //const { _, _, _ } = args;
 
     return new ReadableStream({
       async start(controller) {

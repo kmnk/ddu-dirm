@@ -3,7 +3,7 @@ export function main(denops: Denops) {
     async setJsonPath(
       jsonPath: string,
     ): Promise<void> {
-      console.log(jsonPath);
+      await console.log(jsonPath);
     },
   };
 }

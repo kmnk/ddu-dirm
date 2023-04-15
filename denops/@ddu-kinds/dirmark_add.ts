@@ -25,11 +25,11 @@ export class Kind extends BaseKind<Params> {
       return ActionFlags.None;
     },
     open: async (
-      args: {
-        denops: Denops;
-        items: DduItem[];
-        sourceOptions: SourceOptions;
-      },
+//      args: {
+//        denops: Denops;
+//        items: DduItem[];
+//        sourceOptions: SourceOptions;
+//      },
     ) => {
       const jsonString = await Deno.readTextFile(
         "~/.cache/denite-dirmark/dirmark.json",
