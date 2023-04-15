@@ -1,9 +1,9 @@
-export async function main(denops: Denops) {
+export function main(denops: Denops) {
   denops.dispatcher = {
     async setJsonPath(
       jsonPath: string,
     ): Promise<void> {
-      await console.log(jsonPath);
+      console.log(jsonPath);
     },
   };
 }

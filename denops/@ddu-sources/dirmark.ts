@@ -2,16 +2,12 @@ import {
   ActionData,
   BaseSource,
   Denops,
-  ensureArray,
-  fn,
-  isString,
   Item,
-  relative,
   SourceOptions,
 } from "../deps.ts";
 import { load } from "../@dirmark/dirmark_json.ts";
 
-type Params = {};
+type Params = Record<never, never>;
 
 export class Source extends BaseSource<Params> {
   kind = "file";
@@ -23,7 +19,7 @@ export class Source extends BaseSource<Params> {
       sourceParams: Params;
     },
   ): ReadableStream<Item<ActionData>[]> {
-    const { denops, sourceOptiions, sourceParams } = args;
+    const { _, _, _ } = args;
 
     return new ReadableStream({
       async start(controller) {
