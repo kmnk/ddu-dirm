@@ -1,8 +1,4 @@
-import {
-  ActionData,
-  BaseSource,
-  Item,
-} from "../deps.ts";
+import { ActionData, BaseSource, Item } from "../deps.ts";
 import { load } from "../@dirmark/dirmark_json.ts";
 
 type Params = Record<never, never>;
@@ -11,11 +7,11 @@ export class Source extends BaseSource<Params> {
   kind = "file";
 
   gather(
-//    args: {
-//      denops: Denops;
-//      sourceOptions: SourceOptions;
-//      sourceParams: Params;
-//    },
+    //    args: {
+    //      denops: Denops;
+    //      sourceOptions: SourceOptions;
+    //      sourceParams: Params;
+    //    },
   ): ReadableStream<Item<ActionData>[]> {
     //const { _, _, _ } = args;
 
