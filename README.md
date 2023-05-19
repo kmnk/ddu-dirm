@@ -1,4 +1,4 @@
-# ddu-dirmark
+# ddu-dirm
 
 [ddu.vim][ddu] source &amp; kind to mark &amp; list directories
 
